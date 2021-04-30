@@ -1,1 +1,84 @@
-/* Other rules */
+.hidden {
+  display: none;
+}
+
+.addCounterStyle {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 220px;
+  color: white;
+  background-color: #5c48d3;
+
+  border-radius: 20px;
+  height: 60px;
+
+  font-size: 32px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterContainer {
+  display: flex;
+  position: relative;
+  top: 200px;
+}
+
+.counter {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 150px;
+  height: 150px;
+  font-size: 96px;
+  background-color: #5c48d3;
+  border-radius: 20px;
+  color: white;
+  margin: 0 75px;
+}
+
+.counterSubContainer {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.counterSubSubContainer {
+  max-width: 400px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.reset {
+  margin-top: 20px;
+  width: 150px;
+  color: white;
+  background-color: #5c48d3;
+
+  border-radius: 20px;
+  height: 60px;
+
+  font-size: 32px;
+  border: none;
+}
+
+.add,
+.remove {
+  font-size: 96px;
+}
